@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=STIX+Two+Math&display=swap');
 
 body{
-    background-image: url("/Checkpoint I/img/background2.jpg");
+    background-image: url("../img/background2.jpg");
     background-size: cover;
 }
 

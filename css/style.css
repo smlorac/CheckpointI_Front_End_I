@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=STIX+Two+Math&display=swap');
+
+body{
+    background-image: url("/Checkpoint I/img/background2.jpg");
+    background-size: cover;
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(4, 12, 61);
+    text-align: center;
+    padding: 10px;
+}
+
+.inline-block{
+    font-family: 'STIX Two Math', serif;
+    background-color: rgba(79, 146, 201, 0.8);
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+}
+
+#curiosidades{
+    color: white;
+}
+
+ul{
+    font-family: 'STIX Two Math', serif;
+ }
+
+ footer{
+     text-align: center;
+     font-family: 'STIX Two Math', serif;
+ }
+
+ h3{
+     border: 100px;
+ }
+
+ a{
+     padding: 8px;
+ }
+
+ #autoria{
+     text-align:end;
+ }

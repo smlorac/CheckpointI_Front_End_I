@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=STIX+Two+Math&display=swap');
 
+body {
+    background-image: url('../img/background2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 header{
     font-family: 'Poppins', sans-serif;
     color: rgb(4, 12, 61);
@@ -17,6 +23,8 @@ header{
 
 #curiosidades{
     color: white;
+    background-color: rgba(79, 146, 201, 0.8);
+    width: 40vw;
 }
 
 ul{
@@ -37,9 +45,80 @@ ul{
  }
 
  #autoria{
+     color: white;
      text-align:end;
  }
 
  #video{
      text-align: center;
+ }
+
+ #cadastro{
+     text-decoration: none;
+     color: white;
+     background-color: rgb(4, 12, 61);
+     transition: all 0.3s ease-in-out;
+ }
+
+ #cadastro:hover{
+     background-color: rgb(87, 87, 185);
+     color: black;
+ }
+
+
+ 
+@media(max-width: 320px){
+     header{
+         color:rgb(30, 30, 155)
+     }
+     iframe{
+        display: flex; 
+        justify-content: center;
+     }
+     #curiosidades ul li{
+         width: 150px;
+     }
+     footer{
+         color: white;
+     }
+     footer a{
+         background-color: white;
+     }
+ }
+
+ 
+ @media(max-width: 411px){
+    header{
+        color:rgb(68, 68, 211)
+    }
+    iframe{ 
+        width: 300px;
+     }
+     #curiosidades{
+         width: 300px;
+     }
+     #curiosidades ul li{
+         width: 200px;
+     }
+     footer{
+        color: white;
+    }
+    footer a{
+        background-color: white;
+    }
+ }
+
+ @media(max-width: 768px){
+    #curiosidades{
+        width: 500px;
+    }
+    #curiosidades ul li{
+        width: 300px;
+    }
+    footer{
+       color: white;
+   }
+   footer a{
+       background-color: white;
+   }
  }
